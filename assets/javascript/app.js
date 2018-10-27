@@ -1,3 +1,10 @@
+//Kevin comment:
+//here are my id's for the blanks: 
+//#search-term
+//#num-to-retrieve
+//#start-year
+//#end-year
+
 //creat varibles for search term, Number of record,..
 //data-name
 
