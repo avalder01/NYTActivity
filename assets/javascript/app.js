@@ -7,7 +7,7 @@
 
 //creat varibles for search term, Number of record,..
 //data-name
-var searchTerm = $(this).attr("data-name")
+var searchTerm = $("#search-term").attr("data-name")
 var numRec = $(this).attr("data-name")
 var start = $(this).attr("data-name")
 var end = $(this).attr("data-name")
