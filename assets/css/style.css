@@ -8,3 +8,13 @@ header {
     width: 1137px;
     margin: 0 auto 0 auto;
 }
+
+#formWrapper{
+    position: relative;
+    top: 50px;
+}
+
+#articleWrapper{
+    position: relative;
+    top: 50px;
+}
