@@ -8,9 +8,11 @@
 //creat varibles for search term, Number of record,..
 //data-name
 
-var numRec = document.getElementById("number")
-var start = document.getElementById("number")
-var end = document.getElementById("number")
+var searchTerm = document.getElementById("#search-term")
+console.log(searchTerm);
+var numRec = document.getElementById("#num-to-retrieve")
+var start = document.getElementById("#start-year")
+var end = document.getElementById("")
 var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
 url += '?' + $.param({
   'api-key': "540d28fa74c0460b90258ab8b1561336",
