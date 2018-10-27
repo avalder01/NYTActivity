@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
         <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +9,6 @@
                 <script src="assets/javascript/app.js"></script>
                 
         </head>
-
 <body>
     
     <header>
@@ -18,36 +16,38 @@
             <div class= "row">
                 <div class="col-md-12">
                     <h1>New York Times Search</h1>
-
                 </div>
             </div>
         </div>
     </header>
   
-
   <section>
       <div class= "container p-4 bg-white border">
           <div class="row">
              <div class="col-md-12">
                <div class="head">
-                  <h1>About me</h1>
+                  <h1>Search Parameters</h1>
                   <hr>
                </div>
                     
                     <form>
                         <div class="form-group">
-                            <label for="nameBox">Name</label>
+                            <label for="nameBox">Search Term:</label>
                             <input type="name" class="form-control" id="nameBox" placeholder="Allie Valder">
                         </div>
     
                         <div class="form-group">
-                            <label for="emailBox">E-mail</label>
+                            <label for="emailBox">Number of Records to Retrieve:</label>
                             <input type="email" class="form-control" id="emailBox" placeholder="avalder19@gmail.com">
                         </div>
     
                         <div class="form-group">
-                            <label for="messageBox">Message</label>
-                            <textarea class="form-control" id="messageBox" rows="6"></textarea>
+                            <label for="messageBox">Start Year (Optional):</label>
+                            <textarea class="form-control" id="messageBox" rows="1"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="messageBox">End Year (Optional):</label>
+                            <textarea class="form-control" id="messageBox" rows="1"></textarea>
                         </div>
                         
                         <button type="button" id="submit" name="submit" class="btn btn-primary">Submit</button>
@@ -58,7 +58,6 @@
           </div>
       </div> 
   </section>
-
   <footer>
       <div class="fixed-bottom footer">
           <div class="container-fluid">
@@ -70,8 +69,11 @@
           </div>
         </div>
   </footer>
-
-
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 </body>
 </html>
       
+
