@@ -8,9 +8,22 @@
 //creat varibles for search term, Number of record,..
 //data-name
 
+window.onload = function() {
+
+    
+     $("#submit").click(submitF);
+     $("#delete").click(deleteF);
+  };
+
+function deleteF(){
+
+}
+function submitF(){
+
 var searchTerm = $("#search-term").val()
 console.log(searchTerm);
 var numRec = $("#num-to-retrieve").val()
+console.log(numRec);
 var start = $("#start-year").val()
 var end = $("#end-year").val()
 var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
@@ -29,3 +42,6 @@ $.ajax({
 }).fail(function(err) {
   throw err;
 });
+
+}
+
